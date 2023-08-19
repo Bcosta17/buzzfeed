@@ -1,55 +1,96 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Você seria um herói ou vilão?",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Qual é o seu lema de vida?",
+      "options": [
+        {"id": 1, "name": "Sempre faça o que é certo, não importa o quão difícil seja.", "alias": "heroi"},
+        {"id": 2, "name": "Às vezes, é preciso quebrar algumas regras para alcançar o sucesso.", "alias": "vilao"},
+        {"id": 3, "name": "O poder é tudo, e farei o que for necessário para obtê-lo.", "alias": "vilao"},
+        {"id": 4, "name": "A vida é uma tela em branco; eu pinto minha própria realidade.", "alias": "heroi"}
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "O que você valoriza mais em uma pessoa?",
+      "options": [
+        {"id": 1, "name": "Empatia e compaixão.", "alias": "heroi"},
+        {"id": 2, "name": "Inteligência e perspicácia.", "alias": "vilao"},
+        {"id": 3, "name": "Ambição e determinação.", "alias": "vilao"},
+        {"id": 4, "name": "Criatividade e originalidade.", "alias": "heroi"}
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Escolha um superpoder:",
+      "options": [
+        {"id": 1, "name": "Cura instantânea.", "alias": "heroi"},
+        {"id": 2, "name": "Invisibilidade.", "alias": "vilao"},
+        {"id": 3, "name": "Controle mental.", "alias": "vilao"},
+        {"id": 4, "name": "Manipulação do tempo.", "alias": "heroi"}
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "Como você reage quando vê alguém em perigo?",
+      "options": [
+        {"id": 1, "name": "Corro para ajudar imediatamente, não importa o risco.", "alias": "heroi"},
+        {"id": 2, "name": "Avalio a situação antes de agir, procurando a melhor abordagem.", "alias": "vilao"},
+        {"id": 3, "name": "Vejo se posso tirar vantagem da situação de alguma forma.", "alias": "vilao"},
+        {"id": 4, "name": "Planejo cuidadosamente como resolver a situação de forma eficaz.", "alias": "heroi"}
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Qual é a sua abordagem em situações de conflito?",
+      "options": [
+        {"id": 1, "name": "Buscar a paz e encontrar soluções que beneficiem todos os envolvidos.", "alias": "heroi"},
+        {"id": 2, "name": "Usar a astúcia e a manipulação para sair por cima.", "alias": "vilao"}
+      ]
+    },
+    {
+      "id": 6,
+      "question": "O que você faz quando alguém discorda veementemente de você?",
+      "options": [
+        {"id": 1, "name": "Tento entender o ponto de vista deles e chegar a um acordo.", "alias": "heroi"},
+        {"id": 2, "name": "Argumento logicamente para defender meu ponto de vista.", "alias": "vilao"},
+        {"id": 3, "name": "Ignoro ou elimino qualquer pessoa que se oponha a mim.", "alias": "vilao"},
+        {"id": 4, "name": "Busco um compromisso ou meio-termo para resolver a situação.", "alias": "heroi"}
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Qual é o seu traje ideal?",
+      "options": [
+        {"id": 1, "name": "Um uniforme colorido e inspirador.", "alias": "heroi"},
+        {"id": 2, "name": "Roupas elegantes, mas práticas, com alguns acessórios úteis.", "alias": "vilao"},
+        {"id": 3, "name": "Vestimenta imponente, talvez com capa e símbolo marcante.", "alias": "vilao"},
+        {"id": 4, "name": "Roupas versáteis que combinem com diferentes situações.", "alias": "heroi"}
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Qual é o seu maior medo?",
+      "options": [
+        {"id": 1, "name": "Perder as pessoas que amo.", "alias": "heroi"},
+        {"id": 2, "name": "Falhar em atingir meus objetivos.", "alias": "vilao"},
+        {"id": 3, "name": "Ser subjugado ou controlado por outros.", "alias": "vilao"},
+        {"id": 4, "name": "Não ser lembrado ou deixar uma marca duradoura.", "alias": "heroi"}
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Se você pudesse viajar no tempo, para onde iria?",
+      "options": [
+        {"id": 1, "name": "Para o passado, para corrigir erros e fazer escolhas diferentes.", "alias": "heroi"},
+        {"id": 2, "name": "Para o futuro, para conhecer as consequências das minhas ações atuais.", "alias": "vilao"},
+        {"id": 3, "name": "Eu preferiria não viajar no tempo; o presente é onde pertenço.", "alias": "vilao"}
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "heroi": "Você seria um herói destemido, sempre pronto para ajudar os outros.",
+    "vilao": "Você poderia ser visto como um vilão astuto, disposto a conquistar o mundo a qualquer custo."
   }
 }
